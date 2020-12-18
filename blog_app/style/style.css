@@ -79,12 +79,10 @@ footer {
     cursor: pointer;
     margin-top: 16px;
 }
-
 .post:hover {
     transform: translate3d(0,-5px, 0);
     box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, .1);
 }
-
 .post-image {
     flex-basis: 40%;
     background-image: url(https://images.unsplash.com/photo-1575318633968-0383e7d07ca0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwZGVza3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60);
@@ -106,13 +104,9 @@ footer {
     color: #333;
     font-weight: 600;
 }
-
 .post-title h4 {
-    
-
     margin: 0;
 }
-
 .post-text {
     margin-top: 4px;
     color: #495057;
@@ -121,9 +115,7 @@ footer {
     max-height: 65px;
     overflow: hidden;
 }
-
 .nav-button.new-post-button {
-
     position:fixed;
     bottom:30px;
     right: 30px;
@@ -139,9 +131,16 @@ footer {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     transition: all 0.25s ease;
 }
-
 .nav-button.new-post-button:hover {
 
     background-color: #002349;
 
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #004186;
+    border: 1px solid #004186;
+    border-radius: 5px;
+    padding: 5px 8px;
 } 
