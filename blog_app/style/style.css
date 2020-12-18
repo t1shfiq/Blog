@@ -2,11 +2,9 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .post-link {
     text-decoration: none;
 }
-
 header {
     min-height: 350px;
     background-color: blue;
@@ -20,11 +18,9 @@ header {
     background-position: center;
     position: relative;
 }
-
 header > * {
     z-index: 10;
 }
-
 header::after{
     content: "";
     position: absolute;
@@ -34,7 +30,6 @@ header::after{
     right: 0;
     background-color: rgba(0, 0, 0, 0);
 }
-
 .profile-image {
     width:100px;
     height:100px;
@@ -42,14 +37,12 @@ header::after{
     border-radius: 50%;
     background-image: url(/assets/picture.jpg);
     background-size: cover;
-
+    
 }
-
 .profile-name {
     font-size: 3em;
     font-weight: bold;
 }
-
 .subtext {
     margin-top: 8px;
 }
@@ -57,11 +50,11 @@ header::after{
 .main {
     background-color: yellow;
     height: 100px;
+
     margin-top: 32px;
     display:flex;
     justify-content: center;
 }
-
 .main-container {
     max-width: 750px;
     min-width: 600px;
@@ -69,7 +62,6 @@ header::after{
     padding-left: 16px;
     padding-right: 16px;
 }
-
 footer {
     min-height: 100px;
     background-color: #eaecee70;
@@ -80,3 +72,54 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 } 
+}
+
+.post {
+    display:flex;
+    border: 1px solid #eaecee;
+    border-radius: 8px;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.post-image {
+
+    flex-basis: 40%;
+    background-image: url(https://images.unsplash.com/photo-1575318633968-0383e7d07ca0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwZGVza3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.post-content {
+
+    flex-basis: 60%;
+    padding:24px;
+}
+
+.post-date {
+    font-size: 12px;
+    color: #adb5bd;
+    font-weight: 600;
+}
+
+.post-title {
+    margin-top: 16px;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 600;
+}
+
+.post-title h4 {
+
+    margin: 0;
+}
+
+.post-text {
+    margin-top: 4px;
+    color: #495057;
+    font-weight: 400;
+    line-height: 1.4;
+    max-height: 65px;
+    overflow: hidden;
+}
