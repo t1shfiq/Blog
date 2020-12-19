@@ -13,7 +13,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/IMG_7224.JPG);
+    background-image: url(/blog_app/assets/IMG_7224.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -35,7 +35,7 @@ header::after{
     height:100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(/assets/picture.jpg);
+    background-image: url(/blog_app/assets/picture.jpg);
     background-size: cover;
     
 }
