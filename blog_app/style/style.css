@@ -13,7 +13,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/blog_app/assets/IMG_7224.JPG);
+    background-image: url(/assets/IMG_7224.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -35,7 +35,7 @@ header::after{
     height:100px;
     background-color: white;
     border-radius: 50%;
-    background-image: url(/blog_app/assets/picture.jpg);
+    background-image: url(/assets/picture.jpg);
     background-size: cover;
     
 }
@@ -85,7 +85,6 @@ footer {
 }
 .post-image {
     flex-basis: 40%;
-    background-image: url(https://images.unsplash.com/photo-1575318633968-0383e7d07ca0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwZGVza3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60);
     background-size: cover;
     background-position: center;
 }

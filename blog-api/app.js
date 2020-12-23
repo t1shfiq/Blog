@@ -3,9 +3,15 @@ const app = express ();
 const Post = require("./api/models/posts");
 const postsData = new Post();
 
-app.get("/api/posts", (req,res) => {
+app.use((req,res,next)=> {
+    res.setHeader("Access-Control-Allow-Origin",'*');
+    next();
+});
 
-    postsData.add(test);
+// make the folder publicly available by making it static
+app.use('/uploads', express.static('uploads'));
+
+app.get("/api/posts", (req,res) => {
     res.status(200).send(postsData.get());
 })
 
