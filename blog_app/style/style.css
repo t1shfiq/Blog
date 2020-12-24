@@ -7,17 +7,21 @@ body {
 }
 header {
     min-height: 350px;
-    background-color: blue;
+    
     color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-image: url(/assets/IMG_7224.JPG);
+    align-items: center;  
     background-size: cover;
     background-position: center;
     position: relative;
 }
+
+.home-page header {
+    background-image: url(/assets/IMG_7224.JPG);
+}
+
 header > * {
     z-index: 10;
 }
@@ -37,8 +41,8 @@ header::after{
     border-radius: 50%;
     background-image: url(/assets/picture.jpg);
     background-size: cover;
-    
 }
+
 .profile-name {
     font-size: 3em;
     font-weight: bold;
@@ -143,3 +147,9 @@ footer {
     border-radius: 5px;
     padding: 5px 8px;
 } 
+
+.post-link {
+
+    text-decoration: none;
+}
+
